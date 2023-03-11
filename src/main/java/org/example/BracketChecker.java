@@ -5,9 +5,7 @@ import java.util.Deque;
 import java.util.Stack;
 
 public class BracketChecker {
-    /**
-     *
-     */
+  
     public String getValidBrackets(String s) {
         long count = 0L;
         Stack<Integer> stack = new Stack<>();
